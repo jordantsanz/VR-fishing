@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4963055378426525746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4963055378426525740}
+  - component: {fileID: 4963055378426525747}
+  m_Layer: 0
+  m_Name: FishManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4963055378426525740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4963055378426525746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5314884, y: 2.7147393, z: -4.3439875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4963055378426525747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4963055378426525746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c758c404b78463581f95554a69bb3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fishToSpawn:
+  - {fileID: 9105990097463419426, guid: 63c5693e3a66f45c9817794d6d9a6e67, type: 3}
+  - {fileID: 4042210930300855506, guid: 72f45f8bdec714fd9a6c522d6d6353f1, type: 3}
+  - {fileID: 2176505148134317361, guid: 0696b6d905c9340b792ba660a8a4f898, type: 3}
+  - {fileID: 3629575930780751753, guid: 5e28f54341e0e41d29c39989bdaed709, type: 3}
+  - {fileID: 1631317176026871906, guid: ee20f5027745042798f4e42b2535aa3d, type: 3}
+  fishInPlay: []
+  fishSpawnId: 0
+  rateToSpawnFish: 15
+  fishInPlayCap: 5
+  currentFishInPlay: 0
+  center: {fileID: 0}
+  widthOfSpawnArea: 10
+  heightOfSpawnArea: 10
+  depthOfSpawnArea: -1
+  minDepth: -0.25
+  randomFishInt: 0
